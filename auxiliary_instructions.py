@@ -9,14 +9,14 @@ while exercise != 99:
     if exercise==1:
         while True:
             print('You are into first loop.')
-            option1 = input('Do you desire get out? Write YES to that. ')
-            if option1 == 'SIM':
+            option1 = input('Do you desire get out of first loop? Write YES to that. ')
+            if option1 == 'YES':
                 break # Out of first loop
             else:
                 while True:
                     print('You are into second loop.')
-                    option2 = input('Do you desire get out? Write YES to that. ')
-                    if option2 == 'SIM':
+                    option2 = input('Do you desire get out of second loop? Write YES to that. ')
+                    if option2 == 'YES':
                         break # Out of second loop
                 print('You out from second loop. ')
         print('You out from first loop. ')
