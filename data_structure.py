@@ -13,4 +13,8 @@ for row in cadeiras:
     print(' ***** ')
     semestre += 1
 
+str = 'Sou programador Python'
+print(str[5:0:-1])
 
+for k in range(0, 4, -1):
+    print(k)
